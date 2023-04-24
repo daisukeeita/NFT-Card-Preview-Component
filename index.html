@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | NFT preview card component</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main class="main-container">
+    <div class="nft-container">
+      <div class="nft-container__image-container">
+        <img src="images/image-equilibrium.jpg" alt="NFT Image" class="nft-container__image-container__image">
+
+        <div class="view-container">
+          <img src="images/icon-view.svg" alt="" class="eye-icon">
+        </div>
+      </div>
+
+      <div class="nft-container__description-container">
+        <p class="nft-container__description-container__nft-title">Equilibrium #3429</p>
+        <p class="nft-container__description-container__nft-description">Our Equilibrium collection promotes balance and calm.</p>
+      </div>
+
+      <div class="nft-container__price-container">
+        <div class="nft-container__price-container__ethereum-container">
+          <img src="images/icon-ethereum.svg" alt="Ethereum" class="ethereum">
+          <p class="nft-container__price-container__ethereum-container__nft-price">0.041 ETH</p>
+        </div>
+
+        <div class="nft-container__price-container__time-container">
+          <img src="images/icon-clock.svg" alt="Clock" class="time-icon">
+          <p class="nft-container__price-container__nft-time-limit">3 days left</p>
+        </div>
+      </div>
+
+      <div class="nft-container__profile-container">
+        <img src="images/image-avatar.png" alt="Profile Avatar" class="avatar-icon">
+        <p class="nft-container__profile-container__profile-description">Creation of <a href="" class="profile-name">Jules Wyvern</a></p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/daisukeeita  ">JAVV</a>.
+  </footer>
+</body>
+</html>
