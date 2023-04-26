@@ -16,7 +16,9 @@
     --font-size-200: 0.875rem;
     --font-size-300: 0.938rem;
     --font-size-400: 1rem;
+    --font-size-500: 1.125rem;
     --font-size-600: 1.266rem;
+    --font-size-800: 1.424rem;
 
     --font-weight-light:    300;
     --font-weight-regular:  400;
@@ -213,7 +215,7 @@ picture {
     .nft-container__image-container {
         width: 305px;
         height: 305px;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
 
     .nft-container__image-container__image,
@@ -223,19 +225,27 @@ picture {
     }
 
     .nft-container__description-container {
-        margin-bottom: 30px;
+        width: 305px;
+        margin-bottom: 25px;
     }
 
     .nft-container__description-container__nft-title {
-        margin-bottom: 20px;
+        font-size: var(--font-size-800);
+        margin-bottom: 15px;
     }
 
     .nft-container__description-container__nft-description {
-        font-size: var(--font-size-400);
+        font-size: var(--font-size-500);
     }
 
     .nft-container__price-container {
+        width: 305px;
         margin-bottom: 25px;
+    }
+
+    .nft-container__profile-container {
+        width: 305px;
+
     }
 
 }
